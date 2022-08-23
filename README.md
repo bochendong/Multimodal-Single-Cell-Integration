@@ -5,8 +5,9 @@ This repositories is for kaggle competition Multimodal Single Cell Integration
 https://www.kaggle.com/competitions/open-problems-multimodal
 
 * [Data overview](./metadata/)
-* [Multiome data Analyse](./multi/)
-* [CITEseq data Analyse](./cite/)
+* [Multiome data Analyze](./multi/)
+* [CITEseq data Analyze](./cite/)
+* [Evaluation data Analyze](./submission/)
 
 ## Context
 In the past decade, the advent of single-cell genomics has enabled the measurement of DNA, RNA, and proteins in single cells. These technologies allow the study of biology at an unprecedented scale and resolution. Among the outcomes have been detailed maps of early human embryonic development, the discovery of new disease-associated cell types, and cell-targeted therapeutic interventions. Moreover, with recent advances in experimental techniques it is now possible to measure multiple genomic modalities in the same cell.
