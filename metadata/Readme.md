@@ -150,7 +150,7 @@ Number of cells taken from each **cell type** by each **donor**
 
 ## Multiome
 * 样本数据来自 Day 2，3，4，7，10
-  * 来自 Day 10 的样本最多，细胞种类全部为 hidden
+  * 来自 Day 10 的样本,细胞种类全部为 hidden
   * 来自 Day 4， 7 的细胞样本相对其他天数较少
   * Donor 2 在 Day 4 没有样本用于 Multiome，相比于其他天数，Donor 1，3， 4 在 Day 4 提取的细胞相对较多
 * 样本数据来自 Donor 1，2，3，4
