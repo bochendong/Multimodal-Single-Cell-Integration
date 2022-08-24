@@ -6,7 +6,8 @@
 - [Analyze by Donor](#analyze-by-donor)
 - [Details](#details)
 - [Summary](#summary)
-  - [Multiome](#multiome)
+  - [Multiome](#multiome-1)
+  - [Citeseq](#citeseq-1)
 
 # Data Prepareation
 数据的预处理阶段, 我们将原本数据的 **donor** 和 **technology** 进行了如下改变:
@@ -31,7 +32,7 @@
     * 来自第2，3，4，7天的细胞数量基本相同
     * 来自第十天的细胞最少，只有其他天数的一半
 * 实验体
-    * 不同实验体使用multiome与CITEseq的比例基本相同
+    * 不同实验体使用被提取的细胞数量基本相同
 * 细胞种类
     * HSC细胞最多，BP细胞与MOP细胞都较少
 * Tech
@@ -44,12 +45,12 @@
 * 细胞种类
     * Hidden 细胞全部使用multiome
     * 除去hidden， BP细胞（B淋巴球）使用multiome的比例最大，约为65%
-    * EryP（巨核細胞）使用使用 Citeseq 的比例最小，约为43%
+    * EryP（巨核細胞）使用使用 Citeseq 的比例最大，约为58%
 * 天数
     * 第十天全部使用multiome
-    * 其他天数使用multiome与CITEseq的比例基本相同
+    * 第三天与第四天差距较大
 * 实验体
-    * 不同实验体使用multiome与CITEseq的比例基本相同
+    * 虽然细胞用于multiome更多，但是不同实验体使用multiome与CITEseq的比例基本相同
     
 * 推测
     * 有可能第十天全为Hidden cell
@@ -162,4 +163,6 @@ Number of cells taken from each **cell type** by each **donor**
   * Hidden 细胞于2，3，7，10天被提取
   * 来自 Donor 2 的 Hidden 细胞最多
 * Donor 2，Hidden细胞， day 4 与 day 10 为数据集干扰项，考虑数据清洗与重构的可能性
+
+## Citeseq
 
