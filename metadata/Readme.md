@@ -24,13 +24,27 @@
 # Overview
 基于图表，可以得出：
 <div align=center>
+    <img src ="./image/0.0.png"/>  
+</div>
+
+* 天数
+    * 来自第2，3，4，7天的细胞数量基本相同
+    * 来自第十天的细胞最少，只有其他天数的一半
+* 实验体
+    * 不同实验体使用multiome与CITEseq的比例基本相同
+* 细胞种类
+    * HSC细胞最多，BP细胞与MOP细胞都较少
+* Tech
+    * 来自Multiome的细胞比来自Citeseq的细胞多15%
+
+<div align=center>
     <img src ="./image/1.1.png"/>  
 </div>
 
 * 细胞种类
     * Hidden 细胞全部使用multiome
     * 除去hidden， BP细胞（B淋巴球）使用multiome的比例最大，约为65%
-    * EryP（巨核細胞）使用使用multiome的比例最小，约为43%
+    * EryP（巨核細胞）使用使用 Citeseq 的比例最小，约为43%
 * 天数
     * 第十天全部使用multiome
     * 其他天数使用multiome与CITEseq的比例基本相同
@@ -39,7 +53,18 @@
     
 * 推测
     * 有可能第十天全为Hidden cell
-    * 第三天multiome使用的BP细胞较多，CITEseq使用的BP细胞较少
+    * Multiome 与 Citeseq的差距(15%)可能大部分来自于Hidden细胞
+
+## Citeseq
+<div align=center>
+    <img src ="./image/0.1.png"/>  
+</div>
+
+## Multiome
+<div align=center>
+    <img src ="./image/0.2.png"/>  
+</div>
+
 
 
 # Analyze by day 
