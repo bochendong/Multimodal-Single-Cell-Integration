@@ -2,42 +2,23 @@
 
 # Data Overview
 
-## Training Set
-<div align=center>
-        <img src ="./image/1.1.png"/>  
-</div>
 
-## Test Set
 <div align=center>
         <img src ="./image/1.0.png"/>  
 </div>
 
-# Analyze by day
-
-## Training Set
-<div align=center>
-        <img src ="./image/2.1.0.png"/>  
-</div>
+# Day v.s. Cell Type
 
 <div align=center>
-        <img src ="./image/2.1.1.png"/>  
+        <img src ="./image/2.0.png"/>  
 </div>
 
-## Test set
+# Day v.s. Donor
 <div align=center>
-        <img src ="./image/2.0.0.png"/>  
+        <img src ="./image/3.0.png"/>  
 </div>
 
+# Donor v.s. Cell Type
 <div align=center>
-        <img src ="./image/2.0.1.png"/>  
-</div>
-
-# Analyze by donor
-## Training Set
-<div align=center>
-        <img src ="./image/2.2.0.png"/>  
-</div>
-## Test set
-<div align=center>
-        <img src ="./image/2.3.0.png"/>  
+        <img src ="./image/4.0.png"/>  
 </div>
