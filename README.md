@@ -5,8 +5,8 @@ This repositories is for kaggle competition Multimodal Single Cell Integration
 https://www.kaggle.com/competitions/open-problems-multimodal
 
 * [Data overview](./metadata/)
-* [Multiome data Analyze](./multi/)
-* [CITEseq data Analyze](./cite/)
+* [Multiome data Analyze](./multiome/)
+* [CITEseq data Analyze](./citeseq/)
 * [Evaluation data Analyze](./submission/)
 
 ## Context
