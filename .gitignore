@@ -1,2 +1,5 @@
 *.h5
 *.csv
+*.npz
+*.pt
+*.parquet
